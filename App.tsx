@@ -3,8 +3,8 @@ import {SafeAreaView, StyleSheet, Text} from 'react-native';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <Text>Hi</Text>
+    <SafeAreaView style={{backgroundColor: 'black', flex: 1}}>
+      <Text style={{color: 'white'}}>Hi</Text>
     </SafeAreaView>
   );
 }
